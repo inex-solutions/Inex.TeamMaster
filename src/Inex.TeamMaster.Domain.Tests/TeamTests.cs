@@ -1,6 +1,4 @@
-﻿using Xunit;
-
-namespace Inex.TeamMaster.Domain.Tests;
+﻿namespace Inex.TeamMaster.Domain.Tests;
 
 public class TeamTests
 {
@@ -9,7 +7,7 @@ public class TeamTests
     {
         // Arrange
         var team = new Team("Test Team");
-        var person = new Person(1, "John", "Doe", "john.doe@example.com", new DateTime(1980, 1, 1));
+        var person = new Person(1, "John", "Doe", "john.doe@example.com", new DateTime(1980, 3, 21));
 
         // Act
         team.AddTeamMember(person);
